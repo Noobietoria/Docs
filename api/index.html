@@ -1592,7 +1592,7 @@
 
 <h1 id="noobietoria-studio-api-reference">Noobietoria Studio — API Reference<a class="headerlink" href="#noobietoria-studio-api-reference" title="Permanent link">&para;</a></h1>
 <hr />
-<h2 id="accessory"><img src="/Docs/studio/accessory.png" alt="Accessory icon" width="28" style="vertical-align:-6px" /> Accessory<a class="headerlink" href="#accessory" title="Permanent link">&para;</a></h2>
+<h2 id="accessory"><img src="/studio/accessory.png" alt="Accessory icon" width="28" style="vertical-align:-6px" /> Accessory<a class="headerlink" href="#accessory" title="Permanent link">&para;</a></h2>
 <p>Các vật phẩm trên Noobietoria Marketplace.</p>
 <blockquote>
 <p><strong>Note:</strong> Accessory chỉ bao gồm Items và Clothes. Các vật phẩm khác ví dụ Gamepasses không thể triển khai dù bạn có cố tình nhập vào.</p>
@@ -1605,7 +1605,7 @@
 <p>Chuỗi ID tách nhau bằng dấu <code>,</code>, không yêu cầu mua để triển khai lên player.</p>
 <p>Không thể triển khai trong mục <code>DefaultAccessories</code> của player do mục này là các item mà player đã triển khai. Chỉ có thể bật hoặc tắt biến <code>DefaultAccessories</code> tại root <code>Player</code>.</p>
 <hr />
-<h2 id="accessoryservice"><img src="/Docs/studio/accessoryservice.png" alt="AccessoryService icon" width="28" style="vertical-align:-6px" /> AccessoryService<a class="headerlink" href="#accessoryservice" title="Permanent link">&para;</a></h2>
+<h2 id="accessoryservice"><img src="/studio/accessoryservice.png" alt="AccessoryService icon" width="28" style="vertical-align:-6px" /> AccessoryService<a class="headerlink" href="#accessoryservice" title="Permanent link">&para;</a></h2>
 <p>Cơ chế gần giống Accessory, nhưng đây là biến tĩnh và không thể dùng Luau để ghi đè nó.</p>
 <p><strong>Lưu ý:</strong> Tất cả 3 tham số đều là chuỗi, không được có giá trị nil.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">-- Đeo phụ kiện cho người chơi có tên &quot;Player1&quot;</span>
@@ -1614,7 +1614,7 @@
 <a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="nf">AccessoryService</span><span class="p">(</span><span class="s2">&quot;ShopKeeper&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;NPC&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;</span><span class="se">12345678</span><span class="s2">, 87654321&quot;</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="audioassets"><img src="/Docs/studio/audioassets.png" alt="AudioAssets icon" width="28" style="vertical-align:-6px" /> AudioAssets<a class="headerlink" href="#audioassets" title="Permanent link">&para;</a></h2>
+<h2 id="audioassets"><img src="/studio/audioassets.png" alt="AudioAssets icon" width="28" style="vertical-align:-6px" /> AudioAssets<a class="headerlink" href="#audioassets" title="Permanent link">&para;</a></h2>
 <p>Sử dụng âm thanh trong trò chơi bất kì.</p>
 <blockquote>
 <p><strong>Note:</strong> Audio chỉ bao gồm các đoạn âm thanh (dài ngắn gì team chúng tôi không quan tâm). Các loại Assets khác không được chấp nhận và sẽ không hoạt động.</p>
@@ -1625,7 +1625,7 @@
 <li>Bật Loop: <code>Audio -&gt; Loop = true</code></li>
 </ul>
 <hr />
-<h2 id="audiocservice"><img src="/Docs/studio/audiocservice.png" alt="AudioCService icon" width="28" style="vertical-align:-6px" /> AudioCService<a class="headerlink" href="#audiocservice" title="Permanent link">&para;</a></h2>
+<h2 id="audiocservice"><img src="/studio/audiocservice.png" alt="AudioCService icon" width="28" style="vertical-align:-6px" /> AudioCService<a class="headerlink" href="#audiocservice" title="Permanent link">&para;</a></h2>
 <p>Điều khiển 1 thực thể <code>Audio</code> đã tồn tại.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nv">AudioService</span><span class="p">.</span><span class="nf">New</span><span class="p">(</span><span class="nv">Name</span><span class="p">,</span><span class="w"> </span><span class="nv">ID</span><span class="p">)</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nv">AudioService</span><span class="p">.</span><span class="nf">Stop</span><span class="p">(</span><span class="nv">Name</span><span class="p">)</span>
@@ -1636,7 +1636,7 @@
 <a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="nv">AudioService</span><span class="p">.</span><span class="nf">Loop</span><span class="p">(</span><span class="nv">Name</span><span class="p">,</span><span class="w"> </span><span class="nv">Boolean</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="datastoreservice"><img src="/Docs/studio/datastoreservice.png" alt="DataStoreService icon" width="28" style="vertical-align:-6px" /> DataStoreService<a class="headerlink" href="#datastoreservice" title="Permanent link">&para;</a></h2>
+<h2 id="datastoreservice"><img src="/studio/datastoreservice.png" alt="DataStoreService icon" width="28" style="vertical-align:-6px" /> DataStoreService<a class="headerlink" href="#datastoreservice" title="Permanent link">&para;</a></h2>
 <p>DataStoreService là dịch vụ cho phép bạn lưu trữ và lấy dữ liệu từ cơ sở dữ liệu của chúng tôi.</p>
 <p><strong>Giới hạn:</strong></p>
 <ul>
@@ -1668,7 +1668,7 @@
 <a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="nv">DataStore</span><span class="p">:</span><span class="nc">RemoveAsync</span><span class="p">(</span><span class="nv">key</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="tweenservice"><img src="/Docs/studio/tweenservice.png" alt="TweenService icon" width="28" style="vertical-align:-6px" /> TweenService<a class="headerlink" href="#tweenservice" title="Permanent link">&para;</a></h2>
+<h2 id="tweenservice"><img src="/studio/tweenservice.png" alt="TweenService icon" width="28" style="vertical-align:-6px" /> TweenService<a class="headerlink" href="#tweenservice" title="Permanent link">&para;</a></h2>
 <p>TweenService là 1 dịch vụ cho phép bạn di chuyển vật thể từ chỗ này sang chỗ khác mà không bị giật 1 đống.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1682,7 +1682,7 @@
 <a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="nv">TweenService</span><span class="p">.</span><span class="nf">Back</span><span class="p">(</span><span class="nv">Instance</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="playerservice"><img src="/Docs/studio/playerservice.png" alt="PlayerService icon" width="28" style="vertical-align:-6px" /> PlayerService<a class="headerlink" href="#playerservice" title="Permanent link">&para;</a></h2>
+<h2 id="playerservice"><img src="/studio/playerservice.png" alt="PlayerService icon" width="28" style="vertical-align:-6px" /> PlayerService<a class="headerlink" href="#playerservice" title="Permanent link">&para;</a></h2>
 <p>PlayerService là 1 dịch vụ cho phép bạn theo dõi: Người vào, người ra, đi đâu, về đâu, bay lên trời, lên xe rồng à lộn, tên người chơi, quốc gia của họ.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nv">PlayerService</span><span class="p">.</span><span class="nf">GetPlayers</span><span class="p">()</span>
 <a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nv">PlayerService</span><span class="p">.</span><span class="nf">GetPlayer</span><span class="p">(</span><span class="s2">&quot;Username&quot;</span><span class="p">)</span>
@@ -1698,7 +1698,7 @@
 <a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a><span class="nv">PlayerService</span><span class="p">.</span><span class="nf">Teleport</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Coors</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="httpservice"><img src="/Docs/studio/httpservice.png" alt="HttpService icon" width="28" style="vertical-align:-6px" /> HttpService<a class="headerlink" href="#httpservice" title="Permanent link">&para;</a></h2>
+<h2 id="httpservice"><img src="/studio/httpservice.png" alt="HttpService icon" width="28" style="vertical-align:-6px" /> HttpService<a class="headerlink" href="#httpservice" title="Permanent link">&para;</a></h2>
 <p>HttpService là 1 dịch vụ cho phép bạn có thể gửi yêu cầu đến API ngoài.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1717,7 +1717,7 @@
 <a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="nv">HttpService</span><span class="p">.</span><span class="nf">Release</span><span class="p">(</span><span class="nv">Id</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="uiservice"><img src="/Docs/studio/uiservice.png" alt="UIService icon" width="28" style="vertical-align:-6px" /> UIService<a class="headerlink" href="#uiservice" title="Permanent link">&para;</a></h2>
+<h2 id="uiservice"><img src="/studio/uiservice.png" alt="UIService icon" width="28" style="vertical-align:-6px" /> UIService<a class="headerlink" href="#uiservice" title="Permanent link">&para;</a></h2>
 <p>UIService là 1 dịch vụ cho phép bạn tạo và quản lý giao diện người dùng (UI) trong trò chơi.</p>
 <blockquote>
 <p><strong>Note:</strong> UIService chỉ hỗ trợ các thành phần UI cơ bản như Frame, TextLabel, TextButton, ImageLabel, ImageButton, TextBox và ScrollingFrame.</p>
@@ -1750,7 +1750,7 @@
 <a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a><span class="nv">UIService</span><span class="p">.</span><span class="nf">GetScrollPosition</span><span class="p">(</span><span class="nv">Name</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="instanceservice"><img src="/Docs/studio/instanceservice.png" alt="InstanceService icon" width="28" style="vertical-align:-6px" /> InstanceService<a class="headerlink" href="#instanceservice" title="Permanent link">&para;</a></h2>
+<h2 id="instanceservice"><img src="/studio/instanceservice.png" alt="InstanceService icon" width="28" style="vertical-align:-6px" /> InstanceService<a class="headerlink" href="#instanceservice" title="Permanent link">&para;</a></h2>
 <p>InstanceService là 1 dịch vụ cho phép bạn tạo, xóa, lấy GUID và di chuyển các <a href="../instance/">Instance</a> (Part, Model, NetworkEvent, ServerScript, ClientScript, ModuleScript, ...) trong Workspace hoặc các vùng chứa khác (ReplicatedStorage, ServerStorage, StarterPlayerScripts, ...).</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1778,7 +1778,7 @@
 <a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a><span class="nv">InstanceService</span><span class="p">.</span><span class="nf">requireByGUID</span><span class="p">(</span><span class="nv">GUID</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="networkservice"><img src="/Docs/studio/networkservice.png" alt="NetworkService icon" width="28" style="vertical-align:-6px" /> NetworkService<a class="headerlink" href="#networkservice" title="Permanent link">&para;</a></h2>
+<h2 id="networkservice"><img src="/studio/networkservice.png" alt="NetworkService icon" width="28" style="vertical-align:-6px" /> NetworkService<a class="headerlink" href="#networkservice" title="Permanent link">&para;</a></h2>
 <p>NetworkService là 1 dịch vụ điều khiển Instance <a href="../instance/#networkevent"><code>NetworkEvent</code></a> để giao tiếp 2 chiều giữa <a href="../instance/#serverscript"><code>ServerScript</code></a> và <a href="../instance/#clientscript"><code>ClientScript</code></a>.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1805,7 +1805,7 @@
 <a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a><span class="nv">NetworkService</span><span class="p">.</span><span class="nf">Disconnect</span><span class="p">(</span><span class="nv">Name</span><span class="p">,</span><span class="w"> </span><span class="nv">Index</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="collisionservice"><img src="/Docs/studio/collisionservice.png" alt="CollisionService icon" width="28" style="vertical-align:-6px" /> CollisionService<a class="headerlink" href="#collisionservice" title="Permanent link">&para;</a></h2>
+<h2 id="collisionservice"><img src="/studio/collisionservice.png" alt="CollisionService icon" width="28" style="vertical-align:-6px" /> CollisionService<a class="headerlink" href="#collisionservice" title="Permanent link">&para;</a></h2>
 <p>CollisionService là 1 dịch vụ cho phép bạn quản lý va chạm giữa các đối tượng và nhóm va chạm trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1821,7 +1821,7 @@
 <a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a><span class="nv">CollisionService</span><span class="p">.</span><span class="nf">GetGroups</span><span class="p">()</span>
 </code></pre></div>
 <hr />
-<h2 id="lightingservice"><img src="/Docs/studio/lightingservice.png" alt="LightingService icon" width="28" style="vertical-align:-6px" /> LightingService<a class="headerlink" href="#lightingservice" title="Permanent link">&para;</a></h2>
+<h2 id="lightingservice"><img src="/studio/lightingservice.png" alt="LightingService icon" width="28" style="vertical-align:-6px" /> LightingService<a class="headerlink" href="#lightingservice" title="Permanent link">&para;</a></h2>
 <p>LightingService (hay EnvironmentService) là 1 dịch vụ cho phép bạn điều chỉnh thời gian trong ngày, ánh sáng môi trường và thời tiết của trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1839,7 +1839,7 @@
 <a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a><span class="nv">LightingService</span><span class="p">.</span><span class="nf">SetFog</span><span class="p">(</span><span class="nv">Enabled</span><span class="p">,</span><span class="w"> </span><span class="nv">Color</span><span class="p">,</span><span class="w"> </span><span class="nv">Start</span><span class="p">,</span><span class="w"> </span><span class="nv">End</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="notificationservice"><img src="/Docs/studio/notificationservice.png" alt="NotificationService icon" width="28" style="vertical-align:-6px" /> NotificationService<a class="headerlink" href="#notificationservice" title="Permanent link">&para;</a></h2>
+<h2 id="notificationservice"><img src="/studio/notificationservice.png" alt="NotificationService icon" width="28" style="vertical-align:-6px" /> NotificationService<a class="headerlink" href="#notificationservice" title="Permanent link">&para;</a></h2>
 <p>NotificationService là 1 dịch vụ cho phép bạn hiển thị thông báo dạng toast hoặc popup cho người chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1853,7 +1853,7 @@
 <a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="nv">NotificationService</span><span class="p">.</span><span class="nf">OnDismiss</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="inventoryservice"><img src="/Docs/studio/inventoryservice.png" alt="InventoryService icon" width="28" style="vertical-align:-6px" /> InventoryService<a class="headerlink" href="#inventoryservice" title="Permanent link">&para;</a></h2>
+<h2 id="inventoryservice"><img src="/studio/inventoryservice.png" alt="InventoryService icon" width="28" style="vertical-align:-6px" /> InventoryService<a class="headerlink" href="#inventoryservice" title="Permanent link">&para;</a></h2>
 <p>InventoryService là 1 dịch vụ cho phép bạn quản lý túi đồ trong game của người chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1871,7 +1871,7 @@
 <a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a><span class="nv">InventoryService</span><span class="p">.</span><span class="nf">TransferItem</span><span class="p">(</span><span class="nv">FromUsername</span><span class="p">,</span><span class="w"> </span><span class="nv">ToUsername</span><span class="p">,</span><span class="w"> </span><span class="nv">ItemId</span><span class="p">,</span><span class="w"> </span><span class="nv">Quantity</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="leaderboardservice"><img src="/Docs/studio/leaderboardservice.png" alt="LeaderboardService icon" width="28" style="vertical-align:-6px" /> LeaderboardService<a class="headerlink" href="#leaderboardservice" title="Permanent link">&para;</a></h2>
+<h2 id="leaderboardservice"><img src="/studio/leaderboardservice.png" alt="LeaderboardService icon" width="28" style="vertical-align:-6px" /> LeaderboardService<a class="headerlink" href="#leaderboardservice" title="Permanent link">&para;</a></h2>
 <p>LeaderboardService là 1 dịch vụ cho phép bạn quản lý bảng xếp hạng và điểm số của người chơi trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1890,7 +1890,7 @@
 <a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a><span class="nv">LeaderboardService</span><span class="p">.</span><span class="nf">ResetBoard</span><span class="p">(</span><span class="nv">BoardName</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="spawnservice"><img src="/Docs/studio/spawnservice.png" alt="SpawnService icon" width="28" style="vertical-align:-6px" /> SpawnService<a class="headerlink" href="#spawnservice" title="Permanent link">&para;</a></h2>
+<h2 id="spawnservice"><img src="/studio/spawnservice.png" alt="SpawnService icon" width="28" style="vertical-align:-6px" /> SpawnService<a class="headerlink" href="#spawnservice" title="Permanent link">&para;</a></h2>
 <p>SpawnService là 1 dịch vụ cho phép bạn quản lý điểm hồi sinh (spawn point) của Player và NPC trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1908,7 +1908,7 @@
 <a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a><span class="nv">SpawnService</span><span class="p">.</span><span class="nf">Respawn</span><span class="p">(</span><span class="nv">TargetType</span><span class="p">,</span><span class="w"> </span><span class="nv">Username</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="cameraservice"><img src="/Docs/studio/cameraservice.png" alt="CameraService icon" width="28" style="vertical-align:-6px" /> CameraService<a class="headerlink" href="#cameraservice" title="Permanent link">&para;</a></h2>
+<h2 id="cameraservice"><img src="/studio/cameraservice.png" alt="CameraService icon" width="28" style="vertical-align:-6px" /> CameraService<a class="headerlink" href="#cameraservice" title="Permanent link">&para;</a></h2>
 <p>CameraService là 1 dịch vụ cho phép bạn điều khiển góc nhìn camera và rung màn hình cho người chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1926,7 +1926,7 @@
 <a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="nv">CameraService</span><span class="p">.</span><span class="nf">Reset</span><span class="p">(</span><span class="nv">Username</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="analyticsservice"><img src="/Docs/studio/analyticsservice.png" alt="AnalyticsService icon" width="28" style="vertical-align:-6px" /> AnalyticsService<a class="headerlink" href="#analyticsservice" title="Permanent link">&para;</a></h2>
+<h2 id="analyticsservice"><img src="/studio/analyticsservice.png" alt="AnalyticsService icon" width="28" style="vertical-align:-6px" /> AnalyticsService<a class="headerlink" href="#analyticsservice" title="Permanent link">&para;</a></h2>
 <p>AnalyticsService là 1 dịch vụ cho phép bạn theo dõi các chỉ số và sự kiện đơn giản trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1944,7 +1944,7 @@
 <a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a><span class="nv">AnalyticsService</span><span class="p">.</span><span class="nf">ClearEvents</span><span class="p">(</span><span class="nv">EventName</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="achievementservice"><img src="/Docs/studio/achievementservice.png" alt="AchievementService icon" width="28" style="vertical-align:-6px" /> AchievementService<a class="headerlink" href="#achievementservice" title="Permanent link">&para;</a></h2>
+<h2 id="achievementservice"><img src="/studio/achievementservice.png" alt="AchievementService icon" width="28" style="vertical-align:-6px" /> AchievementService<a class="headerlink" href="#achievementservice" title="Permanent link">&para;</a></h2>
 <p>AchievementService là 1 dịch vụ cho phép bạn quản lý và mở khóa thành tựu cho người chơi trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1965,7 +1965,7 @@
 <a id="__codelineno-17-10" name="__codelineno-17-10" href="#__codelineno-17-10"></a><span class="nv">AchievementService</span><span class="p">.</span><span class="nf">OnUnlock</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="purchaseserviceig"><img src="/Docs/studio/purchaseserviceig.png" alt="PurchaseServiceIG icon" width="28" style="vertical-align:-6px" /> PurchaseServiceIG<a class="headerlink" href="#purchaseserviceig" title="Permanent link">&para;</a></h2>
+<h2 id="purchaseserviceig"><img src="/studio/purchaseserviceig.png" alt="PurchaseServiceIG icon" width="28" style="vertical-align:-6px" /> PurchaseServiceIG<a class="headerlink" href="#purchaseserviceig" title="Permanent link">&para;</a></h2>
 <p>PurchaseServiceIG là dịch vụ xử lý giao dịch bằng <strong>đơn vị tiền tệ tùy chỉnh trong game</strong> (in-game currency do place tự định nghĩa, ví dụ: Coin, Gem, Token…).</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1984,7 +1984,7 @@
 <a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a><span class="nv">PurchaseServiceIG</span><span class="p">.</span><span class="nf">OnPurchase</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="purchaseserviceplatform"><img src="/Docs/studio/purchaseserviceplatform.png" alt="PurchaseServicePlatform icon" width="28" style="vertical-align:-6px" /> PurchaseServicePlatform<a class="headerlink" href="#purchaseserviceplatform" title="Permanent link">&para;</a></h2>
+<h2 id="purchaseserviceplatform"><img src="/studio/purchaseserviceplatform.png" alt="PurchaseServicePlatform icon" width="28" style="vertical-align:-6px" /> PurchaseServicePlatform<a class="headerlink" href="#purchaseserviceplatform" title="Permanent link">&para;</a></h2>
 <p>PurchaseServicePlatform là dịch vụ xử lý giao dịch thông qua <strong>nền tảng</strong> (platform-level purchase). Yêu cầu <code>UserID</code> và <code>ItemId</code> — xác thực và thanh toán được xử lý phía nền tảng, không qua tiền tệ in-game.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -1998,7 +1998,7 @@
 <a id="__codelineno-19-4" name="__codelineno-19-4" href="#__codelineno-19-4"></a><span class="nv">PurchaseServicePlatform</span><span class="p">.</span><span class="nf">OnPurchase</span><span class="p">(</span><span class="nv">UserID</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="chatservice"><img src="/Docs/studio/chatservice.png" alt="ChatService icon" width="28" style="vertical-align:-6px" /> ChatService<a class="headerlink" href="#chatservice" title="Permanent link">&para;</a></h2>
+<h2 id="chatservice"><img src="/studio/chatservice.png" alt="ChatService icon" width="28" style="vertical-align:-6px" /> ChatService<a class="headerlink" href="#chatservice" title="Permanent link">&para;</a></h2>
 <p>ChatService là 1 dịch vụ cho phép bạn quản lý kênh chat, bong bóng chat và lọc từ ngữ trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2020,7 +2020,7 @@
 <a id="__codelineno-20-11" name="__codelineno-20-11" href="#__codelineno-20-11"></a><span class="nv">ChatService</span><span class="p">.</span><span class="nf">OnMessage</span><span class="p">(</span><span class="nv">ChannelName</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="badgeservice"><img src="/Docs/studio/badgeservice.png" alt="BadgeService icon" width="28" style="vertical-align:-6px" /> BadgeService<a class="headerlink" href="#badgeservice" title="Permanent link">&para;</a></h2>
+<h2 id="badgeservice"><img src="/studio/badgeservice.png" alt="BadgeService icon" width="28" style="vertical-align:-6px" /> BadgeService<a class="headerlink" href="#badgeservice" title="Permanent link">&para;</a></h2>
 <p>BadgeService là 1 dịch vụ cho phép bạn cấp huy hiệu hoặc danh hiệu cho người chơi trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2037,7 +2037,7 @@
 <a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a><span class="nv">BadgeService</span><span class="p">.</span><span class="nf">OnAward</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="currencyservice"><img src="/Docs/studio/currencyservice.png" alt="CurrencyService icon" width="28" style="vertical-align:-6px" /> CurrencyService<a class="headerlink" href="#currencyservice" title="Permanent link">&para;</a></h2>
+<h2 id="currencyservice"><img src="/studio/currencyservice.png" alt="CurrencyService icon" width="28" style="vertical-align:-6px" /> CurrencyService<a class="headerlink" href="#currencyservice" title="Permanent link">&para;</a></h2>
 <p>CurrencyService là 1 dịch vụ cho phép bạn quản lý ví tiền, tiền tệ chính và tiền tệ sự kiện của người chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2054,7 +2054,7 @@
 <a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a><span class="nv">CurrencyService</span><span class="p">.</span><span class="nf">OnTransaction</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="questservice"><img src="/Docs/studio/questservice.png" alt="QuestService icon" width="28" style="vertical-align:-6px" /> QuestService<a class="headerlink" href="#questservice" title="Permanent link">&para;</a></h2>
+<h2 id="questservice"><img src="/studio/questservice.png" alt="QuestService icon" width="28" style="vertical-align:-6px" /> QuestService<a class="headerlink" href="#questservice" title="Permanent link">&para;</a></h2>
 <p>QuestService là 1 dịch vụ cho phép bạn quản lý tiến trình nhiệm vụ và phần thưởng cho người chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2076,7 +2076,7 @@
 <a id="__codelineno-23-11" name="__codelineno-23-11" href="#__codelineno-23-11"></a><span class="nv">QuestService</span><span class="p">.</span><span class="nf">OnComplete</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="rewardservice"><img src="/Docs/studio/rewardservice.png" alt="RewardService icon" width="28" style="vertical-align:-6px" /> RewardService<a class="headerlink" href="#rewardservice" title="Permanent link">&para;</a></h2>
+<h2 id="rewardservice"><img src="/studio/rewardservice.png" alt="RewardService icon" width="28" style="vertical-align:-6px" /> RewardService<a class="headerlink" href="#rewardservice" title="Permanent link">&para;</a></h2>
 <p>RewardService là 1 dịch vụ cho phép bạn quản lý quà điểm danh, quà hàng ngày và quà mã code cho người chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2095,7 +2095,7 @@
 <a id="__codelineno-24-8" name="__codelineno-24-8" href="#__codelineno-24-8"></a><span class="nv">RewardService</span><span class="p">.</span><span class="nf">OnClaim</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="banservice"><img src="/Docs/studio/banservice.png" alt="BanService icon" width="28" style="vertical-align:-6px" /> BanService<a class="headerlink" href="#banservice" title="Permanent link">&para;</a></h2>
+<h2 id="banservice"><img src="/studio/banservice.png" alt="BanService icon" width="28" style="vertical-align:-6px" /> BanService<a class="headerlink" href="#banservice" title="Permanent link">&para;</a></h2>
 <p>BanService (hay PunishService) là 1 dịch vụ cho phép bạn cấm, trừng phạt hoặc kick người chơi vi phạm ra khỏi trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2114,7 +2114,7 @@
 <a id="__codelineno-25-9" name="__codelineno-25-9" href="#__codelineno-25-9"></a><span class="nv">BanService</span><span class="p">.</span><span class="nf">ClearWarnings</span><span class="p">(</span><span class="nv">Username</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="matchmakingservice"><img src="/Docs/studio/matchmakingservice.png" alt="MatchmakingService icon" width="28" style="vertical-align:-6px" /> MatchmakingService<a class="headerlink" href="#matchmakingservice" title="Permanent link">&para;</a></h2>
+<h2 id="matchmakingservice"><img src="/studio/matchmakingservice.png" alt="MatchmakingService icon" width="28" style="vertical-align:-6px" /> MatchmakingService<a class="headerlink" href="#matchmakingservice" title="Permanent link">&para;</a></h2>
 <p>MatchmakingService là 1 dịch vụ cho phép bạn xếp hàng, ghép trận và phân chia phòng chơi cho người chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2135,7 +2135,7 @@
 <a id="__codelineno-26-10" name="__codelineno-26-10" href="#__codelineno-26-10"></a><span class="nv">MatchmakingService</span><span class="p">.</span><span class="nf">OnMatch</span><span class="p">(</span><span class="nv">QueueName</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="partyservice"><img src="/Docs/studio/partyservice.png" alt="PartyService icon" width="28" style="vertical-align:-6px" /> PartyService<a class="headerlink" href="#partyservice" title="Permanent link">&para;</a></h2>
+<h2 id="partyservice"><img src="/studio/partyservice.png" alt="PartyService icon" width="28" style="vertical-align:-6px" /> PartyService<a class="headerlink" href="#partyservice" title="Permanent link">&para;</a></h2>
 <p>PartyService là 1 dịch vụ cho phép bạn tạo nhóm, mời bạn bè và tổ đội cùng chơi trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2157,7 +2157,7 @@
 <a id="__codelineno-27-11" name="__codelineno-27-11" href="#__codelineno-27-11"></a><span class="nv">PartyService</span><span class="p">.</span><span class="nf">OnInvite</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="dialogueservice"><img src="/Docs/studio/dialogueservice.png" alt="DialogueService icon" width="28" style="vertical-align:-6px" /> DialogueService<a class="headerlink" href="#dialogueservice" title="Permanent link">&para;</a></h2>
+<h2 id="dialogueservice"><img src="/studio/dialogueservice.png" alt="DialogueService icon" width="28" style="vertical-align:-6px" /> DialogueService<a class="headerlink" href="#dialogueservice" title="Permanent link">&para;</a></h2>
 <p>DialogueService là 1 dịch vụ cho phép bạn xử lý hội thoại và lựa chọn câu trả lời khi người chơi tương tác với NPC.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2177,7 +2177,7 @@
 <a id="__codelineno-28-9" name="__codelineno-28-9" href="#__codelineno-28-9"></a><span class="nv">DialogueService</span><span class="p">.</span><span class="nf">OnChoice</span><span class="p">(</span><span class="nv">DialogueId</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="teleportservice"><img src="/Docs/studio/teleportservice.png" alt="TeleportService icon" width="28" style="vertical-align:-6px" /> TeleportService<a class="headerlink" href="#teleportservice" title="Permanent link">&para;</a></h2>
+<h2 id="teleportservice"><img src="/studio/teleportservice.png" alt="TeleportService icon" width="28" style="vertical-align:-6px" /> TeleportService<a class="headerlink" href="#teleportservice" title="Permanent link">&para;</a></h2>
 <p>TeleportService là 1 dịch vụ cho phép bạn dịch chuyển người chơi giữa các khu vực hoặc server trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2196,7 +2196,7 @@
 <a id="__codelineno-29-8" name="__codelineno-29-8" href="#__codelineno-29-8"></a><span class="nv">TeleportService</span><span class="p">.</span><span class="nf">OnTeleport</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="cooldownservice"><img src="/Docs/studio/cooldownservice.png" alt="CooldownService icon" width="28" style="vertical-align:-6px" /> CooldownService<a class="headerlink" href="#cooldownservice" title="Permanent link">&para;</a></h2>
+<h2 id="cooldownservice"><img src="/studio/cooldownservice.png" alt="CooldownService icon" width="28" style="vertical-align:-6px" /> CooldownService<a class="headerlink" href="#cooldownservice" title="Permanent link">&para;</a></h2>
 <p>CooldownService là 1 dịch vụ cho phép bạn quản lý thời gian hồi chiêu của kỹ năng, item và hành động trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2213,7 +2213,7 @@
 <a id="__codelineno-30-7" name="__codelineno-30-7" href="#__codelineno-30-7"></a><span class="nv">CooldownService</span><span class="p">.</span><span class="nf">OnReady</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">CooldownId</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="effectservice"><img src="/Docs/studio/effectservice.png" alt="EffectService icon" width="28" style="vertical-align:-6px" /> EffectService<a class="headerlink" href="#effectservice" title="Permanent link">&para;</a></h2>
+<h2 id="effectservice"><img src="/studio/effectservice.png" alt="EffectService icon" width="28" style="vertical-align:-6px" /> EffectService<a class="headerlink" href="#effectservice" title="Permanent link">&para;</a></h2>
 <p>EffectService là 1 dịch vụ cho phép bạn tạo hiệu ứng hình ảnh, hạt particle và hiệu ứng màn hình trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2231,7 +2231,7 @@
 <a id="__codelineno-31-6" name="__codelineno-31-6" href="#__codelineno-31-6"></a><span class="nv">EffectService</span><span class="p">.</span><span class="nf">ClearScreenEffect</span><span class="p">(</span><span class="nv">Username</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="soundeffectservice"><img src="/Docs/studio/soundeffectservice.png" alt="SoundEffectService icon" width="28" style="vertical-align:-6px" /> SoundEffectService<a class="headerlink" href="#soundeffectservice" title="Permanent link">&para;</a></h2>
+<h2 id="soundeffectservice"><img src="/studio/soundeffectservice.png" alt="SoundEffectService icon" width="28" style="vertical-align:-6px" /> SoundEffectService<a class="headerlink" href="#soundeffectservice" title="Permanent link">&para;</a></h2>
 <p>SoundEffectService là 1 dịch vụ tối ưu hóa việc phát âm thanh hiệu ứng 3D tại vị trí cụ thể trong không gian trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2249,7 +2249,7 @@
 <a id="__codelineno-32-6" name="__codelineno-32-6" href="#__codelineno-32-6"></a><span class="nv">SoundEffectService</span><span class="p">.</span><span class="nf">Release</span><span class="p">(</span><span class="nv">SoundId</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="marketplaceservice"><img src="/Docs/studio/marketplaceservice.png" alt="MarketplaceService icon" width="28" style="vertical-align:-6px" /> MarketplaceService<a class="headerlink" href="#marketplaceservice" title="Permanent link">&para;</a></h2>
+<h2 id="marketplaceservice"><img src="/studio/marketplaceservice.png" alt="MarketplaceService icon" width="28" style="vertical-align:-6px" /> MarketplaceService<a class="headerlink" href="#marketplaceservice" title="Permanent link">&para;</a></h2>
 <p>MarketplaceService là 1 dịch vụ quản lý vật phẩm trên chợ Noobietoria, cho phép bạn đăng bán, hạ bán và truy vấn thông tin vật phẩm.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2270,7 +2270,7 @@
 <a id="__codelineno-33-9" name="__codelineno-33-9" href="#__codelineno-33-9"></a><span class="nv">MarketplaceService</span><span class="p">.</span><span class="nf">OnPurchase</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="passservice"><img src="/Docs/studio/passservice.png" alt="PassService icon" width="28" style="vertical-align:-6px" /> PassService<a class="headerlink" href="#passservice" title="Permanent link">&para;</a></h2>
+<h2 id="passservice"><img src="/studio/passservice.png" alt="PassService icon" width="28" style="vertical-align:-6px" /> PassService<a class="headerlink" href="#passservice" title="Permanent link">&para;</a></h2>
 <p>PassService (hay GamepassService) là 1 dịch vụ kiểm tra và cấp quyền sở hữu đặc quyền/Gamepass cho người chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2289,7 +2289,7 @@
 <a id="__codelineno-34-9" name="__codelineno-34-9" href="#__codelineno-34-9"></a><span class="nv">PassService</span><span class="p">.</span><span class="nf">OnGrant</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="tradingservice"><img src="/Docs/studio/tradingservice.png" alt="TradingService icon" width="28" style="vertical-align:-6px" /> TradingService<a class="headerlink" href="#tradingservice" title="Permanent link">&para;</a></h2>
+<h2 id="tradingservice"><img src="/studio/tradingservice.png" alt="TradingService icon" width="28" style="vertical-align:-6px" /> TradingService<a class="headerlink" href="#tradingservice" title="Permanent link">&para;</a></h2>
 <p>TradingService là 1 dịch vụ cho phép người chơi giao dịch trực tiếp với nhau bằng cách đề xuất, xem xét và xác nhận trao đổi vật phẩm hoặc tiền tệ.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2308,7 +2308,7 @@
 <a id="__codelineno-35-9" name="__codelineno-35-9" href="#__codelineno-35-9"></a><span class="nv">TradingService</span><span class="p">.</span><span class="nf">OnTradeComplete</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="mailservice"><img src="/Docs/studio/mailservice.png" alt="MailService icon" width="28" style="vertical-align:-6px" /> MailService<a class="headerlink" href="#mailservice" title="Permanent link">&para;</a></h2>
+<h2 id="mailservice"><img src="/studio/mailservice.png" alt="MailService icon" width="28" style="vertical-align:-6px" /> MailService<a class="headerlink" href="#mailservice" title="Permanent link">&para;</a></h2>
 <p>MailService là 1 dịch vụ hòm thư ingame cho phép người chơi gửi và nhận tin nhắn cùng vật phẩm đính kèm.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2328,7 +2328,7 @@
 <a id="__codelineno-36-8" name="__codelineno-36-8" href="#__codelineno-36-8"></a><span class="nv">MailService</span><span class="p">.</span><span class="nf">OnReceive</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="craftingservice"><img src="/Docs/studio/craftingservice.png" alt="CraftingService icon" width="28" style="vertical-align:-6px" /> CraftingService<a class="headerlink" href="#craftingservice" title="Permanent link">&para;</a></h2>
+<h2 id="craftingservice"><img src="/studio/craftingservice.png" alt="CraftingService icon" width="28" style="vertical-align:-6px" /> CraftingService<a class="headerlink" href="#craftingservice" title="Permanent link">&para;</a></h2>
 <p>CraftingService là 1 dịch vụ cho phép người chơi chế tạo vật phẩm mới từ các nguyên liệu có trong túi đồ.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2347,7 +2347,7 @@
 <a id="__codelineno-37-8" name="__codelineno-37-8" href="#__codelineno-37-8"></a><span class="nv">CraftingService</span><span class="p">.</span><span class="nf">OnCraft</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="inputservice"><img src="/Docs/studio/inputservice.png" alt="InputService icon" width="28" style="vertical-align:-6px" /> InputService<a class="headerlink" href="#inputservice" title="Permanent link">&para;</a></h2>
+<h2 id="inputservice"><img src="/studio/inputservice.png" alt="InputService icon" width="28" style="vertical-align:-6px" /> InputService<a class="headerlink" href="#inputservice" title="Permanent link">&para;</a></h2>
 <p>InputService là 1 dịch vụ cho phép bạn bắt sự kiện đầu vào từ phím, chuột và màn hình cảm ứng cho người chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2367,7 +2367,7 @@
 <a id="__codelineno-38-9" name="__codelineno-38-9" href="#__codelineno-38-9"></a><span class="nv">InputService</span><span class="p">.</span><span class="nf">Remove</span><span class="p">(</span><span class="nv">Username</span><span class="p">,</span><span class="w"> </span><span class="nv">KeyCode</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="pathfindingservice"><img src="/Docs/studio/pathfindingservice.png" alt="PathfindingService icon" width="28" style="vertical-align:-6px" /> PathfindingService<a class="headerlink" href="#pathfindingservice" title="Permanent link">&para;</a></h2>
+<h2 id="pathfindingservice"><img src="/studio/pathfindingservice.png" alt="PathfindingService icon" width="28" style="vertical-align:-6px" /> PathfindingService<a class="headerlink" href="#pathfindingservice" title="Permanent link">&para;</a></h2>
 <p>PathfindingService là 1 dịch vụ tìm đường và di chuyển tự động cho NPC trong không gian 3D của trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2387,7 +2387,7 @@
 <a id="__codelineno-39-9" name="__codelineno-39-9" href="#__codelineno-39-9"></a><span class="nv">PathfindingService</span><span class="p">.</span><span class="nf">OnBlocked</span><span class="p">(</span><span class="nv">NpcName</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="proximityservice"><img src="/Docs/studio/proximityservice.png" alt="ProximityService icon" width="28" style="vertical-align:-6px" /> ProximityService<a class="headerlink" href="#proximityservice" title="Permanent link">&para;</a></h2>
+<h2 id="proximityservice"><img src="/studio/proximityservice.png" alt="ProximityService icon" width="28" style="vertical-align:-6px" /> ProximityService<a class="headerlink" href="#proximityservice" title="Permanent link">&para;</a></h2>
 <p>ProximityService là 1 dịch vụ tạo các điểm tương tác (prompt) khi người chơi đến gần một đối tượng trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2408,7 +2408,7 @@
 <a id="__codelineno-40-9" name="__codelineno-40-9" href="#__codelineno-40-9"></a><span class="nv">ProximityService</span><span class="p">.</span><span class="nf">OnExit</span><span class="p">(</span><span class="nv">PromptId</span><span class="p">,</span><span class="w"> </span><span class="nv">Callback</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="localizationservice"><img src="/Docs/studio/localizationservice.png" alt="LocalizationService icon" width="28" style="vertical-align:-6px" /> LocalizationService<a class="headerlink" href="#localizationservice" title="Permanent link">&para;</a></h2>
+<h2 id="localizationservice"><img src="/studio/localizationservice.png" alt="LocalizationService icon" width="28" style="vertical-align:-6px" /> LocalizationService<a class="headerlink" href="#localizationservice" title="Permanent link">&para;</a></h2>
 <p>LocalizationService là 1 dịch vụ đa ngôn ngữ cho phép bạn quản lý và hiển thị nội dung theo ngôn ngữ của người chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2427,7 +2427,7 @@
 <a id="__codelineno-41-8" name="__codelineno-41-8" href="#__codelineno-41-8"></a><span class="nv">LocalizationService</span><span class="p">.</span><span class="nf">ImportTable</span><span class="p">(</span><span class="nv">Translations</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="physicsservice"><img src="/Docs/studio/physicsservice.png" alt="PhysicsService icon" width="28" style="vertical-align:-6px" /> PhysicsService<a class="headerlink" href="#physicsservice" title="Permanent link">&para;</a></h2>
+<h2 id="physicsservice"><img src="/studio/physicsservice.png" alt="PhysicsService icon" width="28" style="vertical-align:-6px" /> PhysicsService<a class="headerlink" href="#physicsservice" title="Permanent link">&para;</a></h2>
 <p>PhysicsService là 1 dịch vụ cho phép bạn điều khiển trọng lực, lực đẩy và các thuộc tính vật lý của đối tượng trong trò chơi.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2448,7 +2448,7 @@
 <a id="__codelineno-42-10" name="__codelineno-42-10" href="#__codelineno-42-10"></a><span class="nv">PhysicsService</span><span class="p">.</span><span class="nf">SetElasticity</span><span class="p">(</span><span class="nv">Instance</span><span class="p">,</span><span class="w"> </span><span class="nv">Elasticity</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="textservice"><img src="/Docs/studio/textservice.png" alt="TextService icon" width="28" style="vertical-align:-6px" /> TextService<a class="headerlink" href="#textservice" title="Permanent link">&para;</a></h2>
+<h2 id="textservice"><img src="/studio/textservice.png" alt="TextService icon" width="28" style="vertical-align:-6px" /> TextService<a class="headerlink" href="#textservice" title="Permanent link">&para;</a></h2>
 <p>TextService là 1 dịch vụ cho phép bạn xử lý, đo đạc và định dạng nội dung văn bản hiển thị trong trò chơi (TextLabel, TextButton, TextBox, bong bóng chat, ...).</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>
@@ -2469,7 +2469,7 @@
 <a id="__codelineno-43-7" name="__codelineno-43-7" href="#__codelineno-43-7"></a><span class="nv">TextService</span><span class="p">.</span><span class="nf">CountCharacters</span><span class="p">(</span><span class="nv">Text</span><span class="p">)</span>
 </code></pre></div>
 <hr />
-<h2 id="networkevent"><img src="/Docs/studio/networkevent.png" alt="NetworkEvent icon" width="28" style="vertical-align:-6px" /> NetworkEvent<a class="headerlink" href="#networkevent" title="Permanent link">&para;</a></h2>
+<h2 id="networkevent"><img src="/studio/networkevent.png" alt="NetworkEvent icon" width="28" style="vertical-align:-6px" /> NetworkEvent<a class="headerlink" href="#networkevent" title="Permanent link">&para;</a></h2>
 <p>NetworkEvent là instance dùng để thiết lập kênh giao tiếp hai chiều giữa Client và Server (tương tự RemoteEvent/RemoteFunction trong Roblox).</p>
 <blockquote>
 <p><strong>Note:</strong> NetworkEvent phải được đặt bên trong một <code>ServerScript</code> hoặc <code>ModuleScript</code>. Không thể khai báo tự do ngoài script context.</p>
@@ -2490,7 +2490,7 @@
 <li>Không nên gọi <code>FireAllClients</code> quá 20 lần/giây để tránh nghẽn mạng.</li>
 </ul>
 <hr />
-<h2 id="serverscript"><img src="/Docs/studio/serverscript.png" alt="ServerScript icon" width="28" style="vertical-align:-6px" /> ServerScript<a class="headerlink" href="#serverscript" title="Permanent link">&para;</a></h2>
+<h2 id="serverscript"><img src="/studio/serverscript.png" alt="ServerScript icon" width="28" style="vertical-align:-6px" /> ServerScript<a class="headerlink" href="#serverscript" title="Permanent link">&para;</a></h2>
 <p>ServerScript là instance chứa code Luau chạy hoàn toàn trên máy chủ, không bao giờ được gửi hay thực thi ở phía client.</p>
 <blockquote>
 <p><strong>Note:</strong> ServerScript chỉ có thể truy cập các Service phía server. Không thể gọi các API chỉ dành cho client (ví dụ: <code>CameraService</code>, <code>InputService</code>) trực tiếp trong ServerScript — phải thông qua <code>NetworkEvent</code>.</p>
@@ -2508,7 +2508,7 @@
 <li>Script bị lỗi runtime sẽ dừng thực thi nhưng không làm sập server; lỗi sẽ được ghi vào Server Log.</li>
 </ul>
 <hr />
-<h2 id="modulescript"><img src="/Docs/studio/modulescript.png" alt="ModuleScript icon" width="28" style="vertical-align:-6px" /> ModuleScript<a class="headerlink" href="#modulescript" title="Permanent link">&para;</a></h2>
+<h2 id="modulescript"><img src="/studio/modulescript.png" alt="ModuleScript icon" width="28" style="vertical-align:-6px" /> ModuleScript<a class="headerlink" href="#modulescript" title="Permanent link">&para;</a></h2>
 <p>ModuleScript là instance chứa code Luau có thể được <code>require()</code> từ bất kỳ ServerScript hoặc ClientScript nào để tái sử dụng logic chung.</p>
 <blockquote>
 <p><strong>Note:</strong> ModuleScript chỉ chạy một lần duy nhất — kết quả trả về được cache lại. Lần <code>require()</code> tiếp theo sẽ nhận cùng một giá trị mà không chạy lại.</p>
@@ -2538,7 +2538,7 @@
 <li>Tên ModuleScript phải duy nhất trong phạm vi game.</li>
 </ul>
 <hr />
-<h2 id="clientscript"><img src="/Docs/studio/clientscript.png" alt="ClientScript icon" width="28" style="vertical-align:-6px" /> ClientScript<a class="headerlink" href="#clientscript" title="Permanent link">&para;</a></h2>
+<h2 id="clientscript"><img src="/studio/clientscript.png" alt="ClientScript icon" width="28" style="vertical-align:-6px" /> ClientScript<a class="headerlink" href="#clientscript" title="Permanent link">&para;</a></h2>
 <p>ClientScript là instance chứa code Luau chạy hoàn toàn trên máy của từng người chơi (client-side), không có quyền truy cập các dịch vụ server.</p>
 <blockquote>
 <p><strong>Note:</strong> ClientScript không thể truy cập DataStoreService, BanService hay bất kỳ API server-only nào. Để tương tác với server, phải dùng <code>NetworkEvent</code>.</p>
@@ -2556,7 +2556,7 @@
 <li>Script bị lỗi trên client chỉ ảnh hưởng đến client đó, không ảnh hưởng server hay client khác.</li>
 </ul>
 <hr />
-<h2 id="networkeventservice"><img src="/Docs/studio/networkeventservice.png" alt="NetworkEventService icon" width="28" style="vertical-align:-6px" /> NetworkEventService<a class="headerlink" href="#networkeventservice" title="Permanent link">&para;</a></h2>
+<h2 id="networkeventservice"><img src="/studio/networkeventservice.png" alt="NetworkEventService icon" width="28" style="vertical-align:-6px" /> NetworkEventService<a class="headerlink" href="#networkeventservice" title="Permanent link">&para;</a></h2>
 <p>NetworkEventService là dịch vụ quản lý toàn bộ các NetworkEvent trong game, cho phép bạn đăng ký, gửi và lắng nghe sự kiện mạng giữa Client và Server bằng code Luau.</p>
 <p><strong>Lưu ý:</strong></p>
 <ul>

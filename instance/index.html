@@ -426,6 +426,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Folder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#frame" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -652,6 +674,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#folder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Folder
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#frame" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -818,6 +862,22 @@
 <p>Attachment là 1 điểm neo trong môi trường 3D.</p>
 <p><strong>Các thuộc tính:</strong> <code>Position</code>, <code>Orientation</code>.</p>
 <p><strong>Service liên quan:</strong> <a href="../api/#instanceservice">InstanceService</a></p>
+<hr />
+<h2 id="folder"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 18H4V8h16m0-2h-8l-2-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2"/></svg></span> Folder<a class="headerlink" href="#folder" title="Permanent link">&para;</a></h2>
+<p>Folder là 1 container thuần túy dùng để <strong>nhóm và tổ chức</strong> các Instance khác trong cây phân cấp (hierarchy). Folder không có thuộc tính vật lý hay render — chỉ là một "thư mục" logic.</p>
+<p><strong>Các thuộc tính:</strong> <code>Name</code>, <code>Parent</code>.</p>
+<p><strong>Khi nào dùng:</strong> Dùng để gom các Instance cùng loại hoặc cùng mục đích lại với nhau cho dễ quản lý (ví dụ: nhóm tất cả NetworkEvent vào một Folder tên <code>Events</code>, nhóm các config vào <code>Settings</code>).</p>
+<p><strong>Services liên quan:</strong> <a href="../api/#instanceservice">InstanceService</a></p>
+<hr />
+<h2 id="model"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1 1v4h1v14H1v4h4v-1h14v1h4v-4h-1V5h1V1h-4v1H5V1m0 3h14v1h1v14h-1v1H5v-1H4V5h1m1 1v8h3v4h9V9h-4V6M8 8h4v4H8m6-1h2v5h-5v-2h3"/></svg></span> Model<a class="headerlink" href="#model" title="Permanent link">&para;</a></h2>
+<p>Model là 1 container dùng để <strong>nhóm các Part và object 3D</strong> lại thành một đơn vị duy nhất, có thể đặt <code>PrimaryPart</code> để định vị và di chuyển toàn bộ nhóm cùng lúc.</p>
+<p><strong>Các thuộc tính:</strong> <code>Name</code>, <code>Parent</code>, <code>PrimaryPart</code> (Part được chọn làm gốc tọa độ của Model).</p>
+<p><strong>Khi nào dùng:</strong> Dùng khi cần nhóm nhiều Part thành một object hoàn chỉnh (nhân vật, xe, tòa nhà, đạo cụ...). Dịch chuyển/xoay Model sẽ áp dụng cho tất cả Part bên trong theo <code>PrimaryPart</code>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Lưu ý</p>
+<p>Luôn đặt <code>PrimaryPart</code> trước khi dùng <code>InstanceService.SetPivot</code> hay <code>InstanceService.MoveTo</code> trên Model, nếu không sẽ gây lỗi runtime.</p>
+</div>
+<p><strong>Services liên quan:</strong> <a href="../api/#instanceservice">InstanceService</a>, <a href="../api/#tweenservice">TweenService</a>, <a href="../api/#physicsservice">PhysicsService</a></p>
 <hr />
 <h2 id="frame"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 18H6V6h12m0-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></span> Frame<a class="headerlink" href="#frame" title="Permanent link">&para;</a></h2>
 <p>Frame là 1 object chứa mọi thứ liên quan GUI.</p>

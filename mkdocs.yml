@@ -2,7 +2,7 @@ site_name: Noobietoria Studio API
 site_description: Tài liệu API chính thức của Noobietoria Studio
 site_author: Noobietoria Team
 docs_dir: docs
-
+site_url: https://noobietoria.github.io/Docs/
 theme:
   name: material
   language: vi

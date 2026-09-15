@@ -2,7 +2,7 @@
 
 ---
 
-## <img src="/studio/accessory.png" alt="Accessory icon" width="28" style="vertical-align:-6px" /> Accessory
+## <img src="/Docs/studioaccessory.png" alt="Accessory icon" width="28" style="vertical-align:-6px" /> Accessory
 
 Các vật phẩm trên Noobietoria Marketplace.
 
@@ -19,7 +19,7 @@ Không thể triển khai trong mục `DefaultAccessories` của player do mục
 
 ---
 
-## <img src="/studio/accessoryservice.png" alt="AccessoryService icon" width="28" style="vertical-align:-6px" /> AccessoryService
+## <img src="/Docs/studioaccessoryservice.png" alt="AccessoryService icon" width="28" style="vertical-align:-6px" /> AccessoryService
 
 Cơ chế gần giống Accessory, nhưng đây là biến tĩnh và không thể dùng Luau để ghi đè nó.
 
@@ -34,7 +34,7 @@ AccessoryService("ShopKeeper", "NPC", "12345678, 87654321")
 
 ---
 
-## <img src="/studio/audioassets.png" alt="AudioAssets icon" width="28" style="vertical-align:-6px" /> AudioAssets
+## <img src="/Docs/studioaudioassets.png" alt="AudioAssets icon" width="28" style="vertical-align:-6px" /> AudioAssets
 
 Sử dụng âm thanh trong trò chơi bất kì.
 
@@ -47,7 +47,7 @@ Sử dụng âm thanh trong trò chơi bất kì.
 
 ---
 
-## <img src="/studio/audiocservice.png" alt="AudioCService icon" width="28" style="vertical-align:-6px" /> AudioCService
+## <img src="/Docs/studioaudiocservice.png" alt="AudioCService icon" width="28" style="vertical-align:-6px" /> AudioCService
 
 Điều khiển 1 thực thể `Audio` đã tồn tại.
 
@@ -63,7 +63,7 @@ AudioService.Loop(Name, Boolean)
 
 ---
 
-## <img src="/studio/datastoreservice.png" alt="DataStoreService icon" width="28" style="vertical-align:-6px" /> DataStoreService
+## <img src="/Docs/studiodatastoreservice.png" alt="DataStoreService icon" width="28" style="vertical-align:-6px" /> DataStoreService
 
 DataStoreService là dịch vụ cho phép bạn lưu trữ và lấy dữ liệu từ cơ sở dữ liệu của chúng tôi.
 
@@ -100,7 +100,7 @@ DataStore:RemoveAsync(key)
 
 ---
 
-## <img src="/studio/tweenservice.png" alt="TweenService icon" width="28" style="vertical-align:-6px" /> TweenService
+## <img src="/Docs/studiotweenservice.png" alt="TweenService icon" width="28" style="vertical-align:-6px" /> TweenService
 
 TweenService là 1 dịch vụ cho phép bạn di chuyển vật thể từ chỗ này sang chỗ khác mà không bị giật 1 đống.
 
@@ -119,7 +119,7 @@ TweenService.Back(Instance)
 
 ---
 
-## <img src="/studio/playerservice.png" alt="PlayerService icon" width="28" style="vertical-align:-6px" /> PlayerService
+## <img src="/Docs/studioplayerservice.png" alt="PlayerService icon" width="28" style="vertical-align:-6px" /> PlayerService
 
 PlayerService là 1 dịch vụ cho phép bạn theo dõi: Người vào, người ra, đi đâu, về đâu, bay lên trời, lên xe rồng à lộn, tên người chơi, quốc gia của họ.
 
@@ -140,7 +140,7 @@ PlayerService.Teleport(Username, Coors)
 
 ---
 
-## <img src="/studio/httpservice.png" alt="HttpService icon" width="28" style="vertical-align:-6px" /> HttpService
+## <img src="/Docs/studiohttpservice.png" alt="HttpService icon" width="28" style="vertical-align:-6px" /> HttpService
 
 HttpService là 1 dịch vụ cho phép bạn có thể gửi yêu cầu đến API ngoài.
 
@@ -164,7 +164,7 @@ HttpService.Release(Id)
 
 ---
 
-## <img src="/studio/uiservice.png" alt="UIService icon" width="28" style="vertical-align:-6px" /> UIService
+## <img src="/Docs/studiouiservice.png" alt="UIService icon" width="28" style="vertical-align:-6px" /> UIService
 
 UIService là 1 dịch vụ cho phép bạn tạo và quản lý giao diện người dùng (UI) trong trò chơi.
 
@@ -201,7 +201,7 @@ UIService.GetScrollPosition(Name)
 
 ---
 
-## <img src="/studio/instanceservice.png" alt="InstanceService icon" width="28" style="vertical-align:-6px" /> InstanceService
+## <img src="/Docs/studioinstanceservice.png" alt="InstanceService icon" width="28" style="vertical-align:-6px" /> InstanceService
 
 InstanceService là 1 dịch vụ cho phép bạn tạo, xóa, lấy GUID và di chuyển các [Instance](instance.md) (Part, Model, NetworkEvent, ServerScript, ClientScript, ModuleScript, ...) trong Workspace hoặc các vùng chứa khác (ReplicatedStorage, ServerStorage, StarterPlayerScripts, ...).
 
@@ -234,7 +234,7 @@ InstanceService.requireByGUID(GUID)
 
 ---
 
-## <img src="/studio/networkservice.png" alt="NetworkService icon" width="28" style="vertical-align:-6px" /> NetworkService
+## <img src="/Docs/studionetworkservice.png" alt="NetworkService icon" width="28" style="vertical-align:-6px" /> NetworkService
 
 NetworkService là 1 dịch vụ điều khiển Instance [`NetworkEvent`](instance.md#networkevent) để giao tiếp 2 chiều giữa [`ServerScript`](instance.md#serverscript) và [`ClientScript`](instance.md#clientscript).
 
@@ -266,7 +266,7 @@ NetworkService.Disconnect(Name, Index)
 
 ---
 
-## <img src="/studio/collisionservice.png" alt="CollisionService icon" width="28" style="vertical-align:-6px" /> CollisionService
+## <img src="/Docs/studiocollisionservice.png" alt="CollisionService icon" width="28" style="vertical-align:-6px" /> CollisionService
 
 CollisionService là 1 dịch vụ cho phép bạn quản lý va chạm giữa các đối tượng và nhóm va chạm trong trò chơi.
 
@@ -287,7 +287,7 @@ CollisionService.GetGroups()
 
 ---
 
-## <img src="/studio/lightingservice.png" alt="LightingService icon" width="28" style="vertical-align:-6px" /> LightingService
+## <img src="/Docs/studiolightingservice.png" alt="LightingService icon" width="28" style="vertical-align:-6px" /> LightingService
 
 LightingService (hay EnvironmentService) là 1 dịch vụ cho phép bạn điều chỉnh thời gian trong ngày, ánh sáng môi trường và thời tiết của trò chơi.
 
@@ -310,7 +310,7 @@ LightingService.SetFog(Enabled, Color, Start, End)
 
 ---
 
-## <img src="/studio/notificationservice.png" alt="NotificationService icon" width="28" style="vertical-align:-6px" /> NotificationService
+## <img src="/Docs/studionotificationservice.png" alt="NotificationService icon" width="28" style="vertical-align:-6px" /> NotificationService
 
 NotificationService là 1 dịch vụ cho phép bạn hiển thị thông báo dạng toast hoặc popup cho người chơi.
 
@@ -329,7 +329,7 @@ NotificationService.OnDismiss(Username, Callback)
 
 ---
 
-## <img src="/studio/inventoryservice.png" alt="InventoryService icon" width="28" style="vertical-align:-6px" /> InventoryService
+## <img src="/Docs/studioinventoryservice.png" alt="InventoryService icon" width="28" style="vertical-align:-6px" /> InventoryService
 
 InventoryService là 1 dịch vụ cho phép bạn quản lý túi đồ trong game của người chơi.
 
@@ -352,7 +352,7 @@ InventoryService.TransferItem(FromUsername, ToUsername, ItemId, Quantity)
 
 ---
 
-## <img src="/studio/leaderboardservice.png" alt="LeaderboardService icon" width="28" style="vertical-align:-6px" /> LeaderboardService
+## <img src="/Docs/studioleaderboardservice.png" alt="LeaderboardService icon" width="28" style="vertical-align:-6px" /> LeaderboardService
 
 LeaderboardService là 1 dịch vụ cho phép bạn quản lý bảng xếp hạng và điểm số của người chơi trong trò chơi.
 
@@ -376,7 +376,7 @@ LeaderboardService.ResetBoard(BoardName)
 
 ---
 
-## <img src="/studio/spawnservice.png" alt="SpawnService icon" width="28" style="vertical-align:-6px" /> SpawnService
+## <img src="/Docs/studiospawnservice.png" alt="SpawnService icon" width="28" style="vertical-align:-6px" /> SpawnService
 
 SpawnService là 1 dịch vụ cho phép bạn quản lý điểm hồi sinh (spawn point) của Player và NPC trong trò chơi.
 
@@ -399,7 +399,7 @@ SpawnService.Respawn(TargetType, Username)
 
 ---
 
-## <img src="/studio/cameraservice.png" alt="CameraService icon" width="28" style="vertical-align:-6px" /> CameraService
+## <img src="/Docs/studiocameraservice.png" alt="CameraService icon" width="28" style="vertical-align:-6px" /> CameraService
 
 CameraService là 1 dịch vụ cho phép bạn điều khiển góc nhìn camera và rung màn hình cho người chơi.
 
@@ -422,7 +422,7 @@ CameraService.Reset(Username)
 
 ---
 
-## <img src="/studio/analyticsservice.png" alt="AnalyticsService icon" width="28" style="vertical-align:-6px" /> AnalyticsService
+## <img src="/Docs/studioanalyticsservice.png" alt="AnalyticsService icon" width="28" style="vertical-align:-6px" /> AnalyticsService
 
 AnalyticsService là 1 dịch vụ cho phép bạn theo dõi các chỉ số và sự kiện đơn giản trong trò chơi.
 
@@ -445,7 +445,7 @@ AnalyticsService.ClearEvents(EventName)
 
 ---
 
-## <img src="/studio/achievementservice.png" alt="AchievementService icon" width="28" style="vertical-align:-6px" /> AchievementService
+## <img src="/Docs/studioachievementservice.png" alt="AchievementService icon" width="28" style="vertical-align:-6px" /> AchievementService
 
 AchievementService là 1 dịch vụ cho phép bạn quản lý và mở khóa thành tựu cho người chơi trong trò chơi.
 
@@ -471,7 +471,7 @@ AchievementService.OnUnlock(Username, Callback)
 
 ---
 
-## <img src="/studio/purchaseservice.png" alt="PurchaseService icon" width="28" style="vertical-align:-6px" /> PurchaseService
+## <img src="/Docs/studiopurchaseservice.png" alt="PurchaseService icon" width="28" style="vertical-align:-6px" /> PurchaseService
 
 PurchaseService là 1 dịch vụ cho phép bạn xử lý các giao dịch, đơn hàng và tiền tệ trong game.
 
@@ -495,7 +495,7 @@ PurchaseService.OnPurchase(Username, Callback)
 
 ---
 
-## <img src="/studio/chatservice.png" alt="ChatService icon" width="28" style="vertical-align:-6px" /> ChatService
+## <img src="/Docs/studiochatservice.png" alt="ChatService icon" width="28" style="vertical-align:-6px" /> ChatService
 
 ChatService là 1 dịch vụ cho phép bạn quản lý kênh chat, bong bóng chat và lọc từ ngữ trong trò chơi.
 
@@ -522,7 +522,7 @@ ChatService.OnMessage(ChannelName, Callback)
 
 ---
 
-## <img src="/studio/badgeservice.png" alt="BadgeService icon" width="28" style="vertical-align:-6px" /> BadgeService
+## <img src="/Docs/studiobadgeservice.png" alt="BadgeService icon" width="28" style="vertical-align:-6px" /> BadgeService
 
 BadgeService là 1 dịch vụ cho phép bạn cấp huy hiệu hoặc danh hiệu cho người chơi trong trò chơi.
 
@@ -544,7 +544,7 @@ BadgeService.OnAward(Username, Callback)
 
 ---
 
-## <img src="/studio/currencyservice.png" alt="CurrencyService icon" width="28" style="vertical-align:-6px" /> CurrencyService
+## <img src="/Docs/studiocurrencyservice.png" alt="CurrencyService icon" width="28" style="vertical-align:-6px" /> CurrencyService
 
 CurrencyService là 1 dịch vụ cho phép bạn quản lý ví tiền, tiền tệ chính và tiền tệ sự kiện của người chơi.
 
@@ -566,7 +566,7 @@ CurrencyService.OnTransaction(Username, Callback)
 
 ---
 
-## <img src="/studio/questservice.png" alt="QuestService icon" width="28" style="vertical-align:-6px" /> QuestService
+## <img src="/Docs/studioquestservice.png" alt="QuestService icon" width="28" style="vertical-align:-6px" /> QuestService
 
 QuestService là 1 dịch vụ cho phép bạn quản lý tiến trình nhiệm vụ và phần thưởng cho người chơi.
 
@@ -593,7 +593,7 @@ QuestService.OnComplete(Username, Callback)
 
 ---
 
-## <img src="/studio/rewardservice.png" alt="RewardService icon" width="28" style="vertical-align:-6px" /> RewardService
+## <img src="/Docs/studiorewardservice.png" alt="RewardService icon" width="28" style="vertical-align:-6px" /> RewardService
 
 RewardService là 1 dịch vụ cho phép bạn quản lý quà điểm danh, quà hàng ngày và quà mã code cho người chơi.
 
@@ -617,7 +617,7 @@ RewardService.OnClaim(Username, Callback)
 
 ---
 
-## <img src="/studio/banservice.png" alt="BanService icon" width="28" style="vertical-align:-6px" /> BanService
+## <img src="/Docs/studiobanservice.png" alt="BanService icon" width="28" style="vertical-align:-6px" /> BanService
 
 BanService (hay PunishService) là 1 dịch vụ cho phép bạn cấm, trừng phạt hoặc kick người chơi vi phạm ra khỏi trò chơi.
 
@@ -641,7 +641,7 @@ BanService.ClearWarnings(Username)
 
 ---
 
-## <img src="/studio/matchmakingservice.png" alt="MatchmakingService icon" width="28" style="vertical-align:-6px" /> MatchmakingService
+## <img src="/Docs/studiomatchmakingservice.png" alt="MatchmakingService icon" width="28" style="vertical-align:-6px" /> MatchmakingService
 
 MatchmakingService là 1 dịch vụ cho phép bạn xếp hàng, ghép trận và phân chia phòng chơi cho người chơi.
 
@@ -667,7 +667,7 @@ MatchmakingService.OnMatch(QueueName, Callback)
 
 ---
 
-## <img src="/studio/partyservice.png" alt="PartyService icon" width="28" style="vertical-align:-6px" /> PartyService
+## <img src="/Docs/studiopartyservice.png" alt="PartyService icon" width="28" style="vertical-align:-6px" /> PartyService
 
 PartyService là 1 dịch vụ cho phép bạn tạo nhóm, mời bạn bè và tổ đội cùng chơi trong trò chơi.
 
@@ -694,7 +694,7 @@ PartyService.OnInvite(Username, Callback)
 
 ---
 
-## <img src="/studio/dialogueservice.png" alt="DialogueService icon" width="28" style="vertical-align:-6px" /> DialogueService
+## <img src="/Docs/studiodialogueservice.png" alt="DialogueService icon" width="28" style="vertical-align:-6px" /> DialogueService
 
 DialogueService là 1 dịch vụ cho phép bạn xử lý hội thoại và lựa chọn câu trả lời khi người chơi tương tác với NPC.
 
@@ -719,7 +719,7 @@ DialogueService.OnChoice(DialogueId, Callback)
 
 ---
 
-## <img src="/studio/teleportservice.png" alt="TeleportService icon" width="28" style="vertical-align:-6px" /> TeleportService
+## <img src="/Docs/studioteleportservice.png" alt="TeleportService icon" width="28" style="vertical-align:-6px" /> TeleportService
 
 TeleportService là 1 dịch vụ cho phép bạn dịch chuyển người chơi giữa các khu vực hoặc server trong trò chơi.
 
@@ -743,7 +743,7 @@ TeleportService.OnTeleport(Username, Callback)
 
 ---
 
-## <img src="/studio/cooldownservice.png" alt="CooldownService icon" width="28" style="vertical-align:-6px" /> CooldownService
+## <img src="/Docs/studiocooldownservice.png" alt="CooldownService icon" width="28" style="vertical-align:-6px" /> CooldownService
 
 CooldownService là 1 dịch vụ cho phép bạn quản lý thời gian hồi chiêu của kỹ năng, item và hành động trong trò chơi.
 
@@ -765,7 +765,7 @@ CooldownService.OnReady(Username, CooldownId, Callback)
 
 ---
 
-## <img src="/studio/effectservice.png" alt="EffectService icon" width="28" style="vertical-align:-6px" /> EffectService
+## <img src="/Docs/studioeffectservice.png" alt="EffectService icon" width="28" style="vertical-align:-6px" /> EffectService
 
 EffectService là 1 dịch vụ cho phép bạn tạo hiệu ứng hình ảnh, hạt particle và hiệu ứng màn hình trong trò chơi.
 
@@ -788,7 +788,7 @@ EffectService.ClearScreenEffect(Username)
 
 ---
 
-## <img src="/studio/soundeffectservice.png" alt="SoundEffectService icon" width="28" style="vertical-align:-6px" /> SoundEffectService
+## <img src="/Docs/studiosoundeffectservice.png" alt="SoundEffectService icon" width="28" style="vertical-align:-6px" /> SoundEffectService
 
 SoundEffectService là 1 dịch vụ tối ưu hóa việc phát âm thanh hiệu ứng 3D tại vị trí cụ thể trong không gian trò chơi.
 
@@ -811,7 +811,7 @@ SoundEffectService.Release(SoundId)
 
 ---
 
-## <img src="/studio/marketplaceservice.png" alt="MarketplaceService icon" width="28" style="vertical-align:-6px" /> MarketplaceService
+## <img src="/Docs/studiomarketplaceservice.png" alt="MarketplaceService icon" width="28" style="vertical-align:-6px" /> MarketplaceService
 
 MarketplaceService là 1 dịch vụ quản lý vật phẩm trên chợ Noobietoria, cho phép bạn đăng bán, hạ bán và truy vấn thông tin vật phẩm.
 
@@ -837,7 +837,7 @@ MarketplaceService.OnPurchase(Username, Callback)
 
 ---
 
-## <img src="/studio/passservice.png" alt="PassService icon" width="28" style="vertical-align:-6px" /> PassService
+## <img src="/Docs/studiopassservice.png" alt="PassService icon" width="28" style="vertical-align:-6px" /> PassService
 
 PassService (hay GamepassService) là 1 dịch vụ kiểm tra và cấp quyền sở hữu đặc quyền/Gamepass cho người chơi.
 
@@ -861,7 +861,7 @@ PassService.OnGrant(Username, Callback)
 
 ---
 
-## <img src="/studio/tradingservice.png" alt="TradingService icon" width="28" style="vertical-align:-6px" /> TradingService
+## <img src="/Docs/studiotradingservice.png" alt="TradingService icon" width="28" style="vertical-align:-6px" /> TradingService
 
 TradingService là 1 dịch vụ cho phép người chơi giao dịch trực tiếp với nhau bằng cách đề xuất, xem xét và xác nhận trao đổi vật phẩm hoặc tiền tệ.
 
@@ -885,7 +885,7 @@ TradingService.OnTradeComplete(Username, Callback)
 
 ---
 
-## <img src="/studio/mailservice.png" alt="MailService icon" width="28" style="vertical-align:-6px" /> MailService
+## <img src="/Docs/studiomailservice.png" alt="MailService icon" width="28" style="vertical-align:-6px" /> MailService
 
 MailService là 1 dịch vụ hòm thư ingame cho phép người chơi gửi và nhận tin nhắn cùng vật phẩm đính kèm.
 
@@ -910,7 +910,7 @@ MailService.OnReceive(Username, Callback)
 
 ---
 
-## <img src="/studio/craftingservice.png" alt="CraftingService icon" width="28" style="vertical-align:-6px" /> CraftingService
+## <img src="/Docs/studiocraftingservice.png" alt="CraftingService icon" width="28" style="vertical-align:-6px" /> CraftingService
 
 CraftingService là 1 dịch vụ cho phép người chơi chế tạo vật phẩm mới từ các nguyên liệu có trong túi đồ.
 
@@ -934,7 +934,7 @@ CraftingService.OnCraft(Username, Callback)
 
 ---
 
-## <img src="/studio/inputservice.png" alt="InputService icon" width="28" style="vertical-align:-6px" /> InputService
+## <img src="/Docs/studioinputservice.png" alt="InputService icon" width="28" style="vertical-align:-6px" /> InputService
 
 InputService là 1 dịch vụ cho phép bạn bắt sự kiện đầu vào từ phím, chuột và màn hình cảm ứng cho người chơi.
 
@@ -959,7 +959,7 @@ InputService.Remove(Username, KeyCode)
 
 ---
 
-## <img src="/studio/pathfindingservice.png" alt="PathfindingService icon" width="28" style="vertical-align:-6px" /> PathfindingService
+## <img src="/Docs/studiopathfindingservice.png" alt="PathfindingService icon" width="28" style="vertical-align:-6px" /> PathfindingService
 
 PathfindingService là 1 dịch vụ tìm đường và di chuyển tự động cho NPC trong không gian 3D của trò chơi.
 
@@ -984,7 +984,7 @@ PathfindingService.OnBlocked(NpcName, Callback)
 
 ---
 
-## <img src="/studio/proximityservice.png" alt="ProximityService icon" width="28" style="vertical-align:-6px" /> ProximityService
+## <img src="/Docs/studioproximityservice.png" alt="ProximityService icon" width="28" style="vertical-align:-6px" /> ProximityService
 
 ProximityService là 1 dịch vụ tạo các điểm tương tác (prompt) khi người chơi đến gần một đối tượng trong trò chơi.
 
@@ -1010,7 +1010,7 @@ ProximityService.OnExit(PromptId, Callback)
 
 ---
 
-## <img src="/studio/localizationservice.png" alt="LocalizationService icon" width="28" style="vertical-align:-6px" /> LocalizationService
+## <img src="/Docs/studiolocalizationservice.png" alt="LocalizationService icon" width="28" style="vertical-align:-6px" /> LocalizationService
 
 LocalizationService là 1 dịch vụ đa ngôn ngữ cho phép bạn quản lý và hiển thị nội dung theo ngôn ngữ của người chơi.
 
@@ -1034,7 +1034,7 @@ LocalizationService.ImportTable(Translations)
 
 ---
 
-## <img src="/studio/physicsservice.png" alt="PhysicsService icon" width="28" style="vertical-align:-6px" /> PhysicsService
+## <img src="/Docs/studiophysicsservice.png" alt="PhysicsService icon" width="28" style="vertical-align:-6px" /> PhysicsService
 
 PhysicsService là 1 dịch vụ cho phép bạn điều khiển trọng lực, lực đẩy và các thuộc tính vật lý của đối tượng trong trò chơi.
 
@@ -1060,7 +1060,7 @@ PhysicsService.SetElasticity(Instance, Elasticity)
 
 ---
 
-## <img src="/studio/textservice.png" alt="TextService icon" width="28" style="vertical-align:-6px" /> TextService
+## <img src="/Docs/studiotextservice.png" alt="TextService icon" width="28" style="vertical-align:-6px" /> TextService
 
 TextService là 1 dịch vụ cho phép bạn xử lý, đo đạc và định dạng nội dung văn bản hiển thị trong trò chơi (TextLabel, TextButton, TextBox, bong bóng chat, ...).
 
@@ -1086,7 +1086,7 @@ TextService.CountCharacters(Text)
 
 ---
 
-## <img src="/studio/networkevent.png" alt="NetworkEvent icon" width="28" style="vertical-align:-6px" /> NetworkEvent
+## <img src="/Docs/studionetworkevent.png" alt="NetworkEvent icon" width="28" style="vertical-align:-6px" /> NetworkEvent
 
 NetworkEvent là instance dùng để thiết lập kênh giao tiếp hai chiều giữa Client và Server (tương tự RemoteEvent/RemoteFunction trong Roblox).
 
@@ -1109,7 +1109,7 @@ NetworkEvent là instance dùng để thiết lập kênh giao tiếp hai chiề
 
 ---
 
-## <img src="/studio/serverscript.png" alt="ServerScript icon" width="28" style="vertical-align:-6px" /> ServerScript
+## <img src="/Docs/studioserverscript.png" alt="ServerScript icon" width="28" style="vertical-align:-6px" /> ServerScript
 
 ServerScript là instance chứa code Luau chạy hoàn toàn trên máy chủ, không bao giờ được gửi hay thực thi ở phía client.
 
@@ -1129,7 +1129,7 @@ ServerScript là instance chứa code Luau chạy hoàn toàn trên máy chủ, 
 
 ---
 
-## <img src="/studio/modulescript.png" alt="ModuleScript icon" width="28" style="vertical-align:-6px" /> ModuleScript
+## <img src="/Docs/studiomodulescript.png" alt="ModuleScript icon" width="28" style="vertical-align:-6px" /> ModuleScript
 
 ModuleScript là instance chứa code Luau có thể được `require()` từ bất kỳ ServerScript hoặc ClientScript nào để tái sử dụng logic chung.
 
@@ -1163,7 +1163,7 @@ local result = MathUtils.Add(3, 5) -- 8
 
 ---
 
-## <img src="/studio/clientscript.png" alt="ClientScript icon" width="28" style="vertical-align:-6px" /> ClientScript
+## <img src="/Docs/studioclientscript.png" alt="ClientScript icon" width="28" style="vertical-align:-6px" /> ClientScript
 
 ClientScript là instance chứa code Luau chạy hoàn toàn trên máy của từng người chơi (client-side), không có quyền truy cập các dịch vụ server.
 
@@ -1183,7 +1183,7 @@ ClientScript là instance chứa code Luau chạy hoàn toàn trên máy của t
 
 ---
 
-## <img src="/studio/networkeventservice.png" alt="NetworkEventService icon" width="28" style="vertical-align:-6px" /> NetworkEventService
+## <img src="/Docs/studionetworkeventservice.png" alt="NetworkEventService icon" width="28" style="vertical-align:-6px" /> NetworkEventService
 
 NetworkEventService là dịch vụ quản lý toàn bộ các NetworkEvent trong game, cho phép bạn đăng ký, gửi và lắng nghe sự kiện mạng giữa Client và Server bằng code Luau.
 

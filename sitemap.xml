@@ -1,3 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="None"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+    </url>
+    <url>
+        <loc>Noneapi/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="Noneapi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/api/"/>
+    </url>
+    <url>
+        <loc>Noneinstance/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="vi" href="Noneinstance/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/instance/"/>
+    </url>
+    <url>
+        <loc>Noneen/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="None"/>
+    </url>
+    <url>
+        <loc>Noneen/api/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/api/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="Noneapi/"/>
+    </url>
+    <url>
+        <loc>Noneen/instance/</loc>
+        <lastmod>2026-09-15</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneen/instance/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="Noneinstance/"/>
+    </url>
 </urlset>
